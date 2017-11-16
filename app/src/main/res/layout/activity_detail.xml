@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yurima.organizations.DetailActivity"
+
+
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/text_view_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text = "ул. Красноармейская, д. 117"
+        style="@style/DetailTextItemStyle"/>
+
+
+    <TextView
+        android:id="@+id/text_view_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="(84244) 2-10-35"
+        style="@style/DetailTextItemStyle"/>
+
+    <TextView
+        android:id="@+id/text_view_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Романов Алексей Константинович"
+        style="@style/DetailTextItemStyle"/>
+
+    <TextView
+        android:id="@+id/text_view_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="1.Connect the two radios together with the cloning cable.
+2.Power up the destination radio.
+3.Press and hold the two side buttons at the same time on the source radio and then power up the source radio. "
+        style="@style/DetailTextItemStyle"
+        />
+
+
+
+    
+</LinearLayout>
