@@ -6,22 +6,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.yurima.organizations.DetailActivity"
-
-
-    android:orientation="vertical">
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    >
     
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="256dp"
         android:scaleType="centerCrop"
-        />
+        android:src="@drawable/ovo" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text = 'Майнский ОВО - филиал ФГКУ "УВО ВНГ России по Ульяновской области"'
+        style="@style/DetailTextItemStyle"/>
 
     <TextView
         android:id="@+id/text_view_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text = "ул. Красноармейская, д. 117"
+        tools:text = "433130, Ульяновская область, р.п. Майна, ул. Красноармейская, д. 117"
         style="@style/DetailTextItemStyle"/>
 
 
